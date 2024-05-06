@@ -767,3 +767,45 @@ div[class*="table-responsive"] + .card-body {
   }
   
 }
+.form-group-feedback {
+  position: relative;
+}
+.input-group .form-group-feedback {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 1%;
+  z-index: 4;
+}
+.form-group-feedback-left .form-control-feedback {
+  left: 0;
+}
+.form-group-feedback-left .form-control {
+  padding-left: 2.75rem;
+}
+.form-group-feedback-left .form-control-lg {
+  padding-left: 3rem;
+}
+.form-group-feedback-left .form-control-sm {
+  padding-left: 2.5rem;
+}
+.form-group-feedback-right .form-control-lg {
+  padding-right: 3rem;
+}
+.form-control-feedback-lg {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: calc(1.4286em + 1.125rem + 2px);
+}
+.form-group-feedback-right .form-control-feedback {
+  right: 0;
+}
+.form-group-feedback-right .form-control {
+  padding-right: 2.75rem;
+}
+.form-group-feedback-right .form-control-lg {
+  padding-right: 3rem;
+}
+.form-group-feedback-right .form-control-sm {
+  padding-right: 2.5rem;
+}
